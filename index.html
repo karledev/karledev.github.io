@@ -1,7 +1,32 @@
+
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+	  <a href=""><img src="assets/images/logo.png"/></a>
+	  <h1>Karle.Dev</h1>
+	  <div class="links">
+	  <ul>
+	    <li><a href="">Home</a></li>
+	    <li><span class="isDisabled"><a href="posts">Posts</a></span></li>
+		<li><span class="isDisabled"><a href="about">About</a></span></li>
+	  </ul>
+	  </div>
+	</header>
+    <h1>First Static Post</h1>
+	<h2>6th October 2022</h2>
+    <p>This is my first hard coded test post. I'll gradually be migrating this site over to use Statiq, a dotnet static website generator.</p>
+	<p>I have decided to build it from scratch, rather than using an existing template.</p>
+	<p>Next up:</p>
+	<ol>
+	  <li>Create the .cshtml templates and associated css for each of the pages.</li>
+	  <li>Set-up the Statiq pipeline to process input markdown files in to pages</li>
+	</ol>
+  </body>
 </html>

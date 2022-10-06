@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+header img {
+  height: 60px;
+  margin-left: 40px;
+  display: block;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+body {
+  margin-top: 80px;
+  padding: 30px;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+  margin-left: 40px;
+}
+
+header .links {
+  
+  margin-left: auto;
+  margin-right :100px;
+}
+
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
